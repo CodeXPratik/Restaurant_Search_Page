@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+}
+
+header {
+    background-color: #CE0505;
+    height: 80px;
+    position: relative;
+    padding: 16px 113px;
+}
+
+.logo {
+    display: flex;
+    height: 52px;
+    width: 52px;
+    color: #CE0505;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 33px;
+    font-weight: 600;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-signup-btn {
+    float: right;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.signup-btn {
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+main {
+    background-color: #fbfbfb;
+    position: relative;
+    padding: 20px 113px;
+    color: #192F60;
+    height: 100vh;
+}
+
+main label {
+    color: #8C96AB;
+}
+
+input {
+    accent-color: #3A5075;
+    width: 18px;
+    height: 18px;
+    margin-right: 11px;
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 27px;
+}
+
+.filters {
+    display: inline-block;
+    padding: 17px 26px;
+    width: 260px;
+    height: 705px;
+    background: white;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.select-location p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.select-location label {
+    color: #192F60;
+}
+
+.filters div {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.filters label {
+    font-size: 14px;
+}
+
+.cuisine {
+    margin-top: 22px;
+}
+.cuisine div p{
+    color:#192F60;
+}
+.cuisine div{
+    color:#8C96AB; 
+}
+.budget {
+    margin-top: 26px;
+}
+
+.budget div{
+    display: flex;
+    align-items: center;
+}
+
+.filters select {
+    color: #8C96AB;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    width: 208px;
+    height: 35px;
+    padding: 0px 13px;
+}
+
+.sort {
+    margin-top: 25px;
+}
+
+.sort p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.sort div{
+    display: flex;
+    align-items: center;
+}
+
+.result {
+    left: 421px;
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+}
+
+.result div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 35px;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    display: flex;
+    position: absolute;
+}
+
+.restaurant-info {
+    padding-top: 39px;
+    padding-left: 196px;
+}
+
+.restaurant-address {
+    padding: 0px 201px;
+}
+
+.street-address {
+    color: #636F88;
+}
+
+.restaurant-name {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+hr {
+    display: block;
+    margin-top: 38px;
+    margin-bottom: 26px;
+    margin-left: 36px;
+    margin-right: 32.63px;
+    border: 1px solid;
+    border-color: #DEDFE5;
+}
+
+.food {
+    padding: 0px 42px;
+}
+
+.food span {
+    display: block;
+    padding: 2.7px;
+}
+
+.product-info {
+    display: inline-block;
+    color: #636F88;
+}
+
+.product-description {
+    display: inline-block;
+    padding: 0px 45px;
+}
+
+.result1 {
+    top: 102px;
+}
+
+.result2 {
+    top: 430px;
+
+}
+
+.pagination {
+    display: block;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 277px;
+    bottom: 210px;
+}
+
+.pagination button {
+    background-color: white;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    height: 36px;
+    width: 36px;
+    font-size: 20px;
+    color: #8C96AB;
+    margin: 4px;
+}
+
+.pagination button.active{
+    background-color: #8C96AB;
+    color: white;
+}
